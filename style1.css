@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgba(15, 91, 15, 0.762);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1100px 500px 100px;
+    /* border: 2px solid rebeccapurple; */
+ }
+
+.image_container{
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 100vw;
+    /* flex-direction: row; */
+}
+img{
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    box-shadow: rgb(0 0 0 / 74%) 5px 6px 10px;
+}
+.about{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* border: 2px solid red; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+.footer{
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 200px;
+    text-decoration: none;
+    font-size: 1.3rem;  
+    text-transform: uppercase;    
+}
+.footer a{
+    color: rgba(52, 14, 14, 0.825);
+    transition: 0.2s;
+}
+.footer a:hover{
+    transform: scale(1.15);
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    color: #fff;
+}
+h2{
+
+}
+.faq_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.faq_section h2{
+    font-family: 'Creepster', cursive;
+    font-size: 60px;
+}
+.question_container{
+    /* display: flex; */
+    width: 90vw;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Teko', sans-serif;
+    /* border: 2px solid red; */
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(17, 13, 13, 0.841);
+    transition: 0.2s;
+}
+.question_container .question{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.question_container:hover{
+    transform: scale(1.005);
+    box-shadow: rgb(0 0 0 / 74%) 5px 6px 10px;
+    background-color: rgba(122, 119, 119, 0.841);
+    color: black;
+
+}
+
